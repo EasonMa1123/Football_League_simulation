@@ -13,4 +13,8 @@ public class club{
 
 
     }
+
+    public String getName() {
+        return Name;
+    }
 }
