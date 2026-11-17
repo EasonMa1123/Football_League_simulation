@@ -2,7 +2,10 @@ import java.util.List;
 
 public class main {
     public static void main(String[] args) {
-        club[] clubs = {new club(), new club(), new club(), new club()};
+        club[] clubs = new club[20];
+        for (int i = 0; i < 20; i++) {
+            clubs[i] = new club();
+        }
         league season = new league(clubs);
 
         System.out.println("Football League Fixtures");

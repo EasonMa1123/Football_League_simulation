@@ -29,6 +29,7 @@ Run the fixture-generation demo with:
 mvn compile exec:java
 ```
 
-The Java sources are in `simulation_object`, and Maven compiles them for Java 17.
-Tests belong in `src/test/java`. Maven writes compiled classes and reports to
-`target`; test reports are in `target/surefire-reports`.
+The application entry point is `main.java`; supporting Java sources are in
+`simulation_object`. Maven compiles them for Java 17. Tests belong in
+`src/test/java`. Maven writes compiled classes and reports to `target`; test
+reports are in `target/surefire-reports`.
