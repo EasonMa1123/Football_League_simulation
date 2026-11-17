@@ -1,3 +1,5 @@
+
+
 public class player extends person{
     private attributes playerAttributes = new attributes();
     
